@@ -1,0 +1,11 @@
+[package]
+name = "json_merge_patch_gen"
+authors = ["Rasmus Lövegren <rasmus@lovegren.fi>"]
+repository = "https://github.com/FruitieX/json-merge-patch-gen"
+description = "Rust library for generating a JSON Merge Patch (RFC 7386)"
+license = "MIT"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.132"
